@@ -1,4 +1,4 @@
-## global `wp` 
+## global `wp` object 
 
 [![NPM](https://nodei.co/npm/global-wp.png?compact=true)](https://nodei.co/npm/global-wp/)
 
