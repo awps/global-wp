@@ -19,7 +19,7 @@ console.log(wwp);
 const l = () => throw new Error('Global "window.wp" object does not exists!')
 
 if (!window.wp) {
-    wp = {
+    window.wp = {
         hooks: {
             addAction: () => l(),
             addFilter: () => l(),
@@ -752,3 +752,6 @@ if (!window.wp) {
         },
     }
 }
+
+const wp = window.wp
+export default wp
